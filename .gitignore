@@ -1,0 +1,6 @@
+# Docker ignores
+*.log
+*.env
+**/node_modules
+**/build
+.dockerignore
