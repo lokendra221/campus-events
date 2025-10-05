@@ -3,8 +3,8 @@ import React, { useState, useEffect } from 'react';
 import { Calendar, MapPin, Users, Clock, CheckCircle, XCircle, AlertCircle, Trash2 } from 'lucide-react';
 import io from 'socket.io-client';
 
-const API_BASE = process.env.REACT_APP_API_URL || 'http://localhost:5000/api';
-const SOCKET_URL = process.env.REACT_APP_SOCKET_URL || 'http://localhost:5000';
+const API_BASE = process.env.REACT_APP_API_URL || 'https://campus-events-2.onrender.com/api';
+const SOCKET_URL = process.env.REACT_APP_SOCKET_URL || 'https://campus-events-2.onrender.com';
 
 const App = () => {
   const [user, setUser] = useState(null);
