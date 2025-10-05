@@ -764,7 +764,7 @@ const App = () => {
                   className="w-full bg-gradient-to-r from-purple-600 to-indigo-600 text-white py-4 rounded-xl hover:from-purple-700 hover:to-indigo-700 transition-all shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 font-bold text-lg disabled:opacity-50"
                   disabled={loading}
                 >
-                  {loading ? 'Registering...' : '✨ Register for Event'}
+                  {loading ? 'Registering...' : ' Register for Event'}
                 </button>
               )}
 

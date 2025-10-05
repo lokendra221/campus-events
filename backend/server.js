@@ -20,8 +20,8 @@ const io = new Server(server, {
 app.use(cors());
 app.use(express.json());
 
-const JWT_SECRET = 'your-secret-key-change-in-production';
-const MONGODB_URI = process.env.MONGODB_URI || 'mongodb://mongo:27017/campus-events';
+const JWT_SECRET = process.env.JWT_SECRET;
+const MONGODB_URI = process.env.MONGODB_URI;
 
 // MongoDB Connection
 mongoose.connect(MONGODB_URI, {
